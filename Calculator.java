@@ -29,19 +29,19 @@ public class Calculator extends Application {
     grid.setVgap(5);
     grid.setPadding(new Insets(10));
 
-    // Add number buttons (7, 8, 9 in first row)
+    // Add buttons (7, 8, 9, + in first row)
     grid.add(createNumberButton("7"), 0, 0);
     grid.add(createNumberButton("8"), 1, 0);
     grid.add(createNumberButton("9"), 2, 0);
     grid.add(createOperatorButton("+"), 3, 0);
 
-    // Add more rows (4, 5, 6)
+    // Add more rows (4, 5, 6, -)
     grid.add(createNumberButton("4"), 0, 1);
     grid.add(createNumberButton("5"), 1, 1);
     grid.add(createNumberButton("6"), 2, 1);
     grid.add(createOperatorButton("-"), 3, 1);
 
-    // Add more rows (1, 2, 3)
+    // Add more rows (1, 2, 3, *)
     grid.add(createNumberButton("1"), 0, 2);
     grid.add(createNumberButton("2"), 1, 2);
     grid.add(createNumberButton("3"), 2, 2);
